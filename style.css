@@ -1,7 +1,136 @@
-.main{
-    margin: 0px;
-    width: 99vw;
-    height: 97.5vh;
-    background-color: hsl(229, 57%, 11%) ;
-    background-image: url();
+body {
+  color: wheat;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: hsl(243, 100%, 93%);
+}
+.main {
+  display: flex;
+  margin: auto;
+  width: 99vw;
+  height: 97.5vh;
+  background-color: hsl(229, 57%, 11%);
+  justify-content: center;
+}
+
+#bgimg {
+  position: absolute;
+  bottom: 0px;
+
+  width: 99vw;
+  height: 47vh;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: hsl(228, 56%, 26%);
+  height: 180px;
+  align-self: center;
+  z-index: 2;
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+  width: 325px;
+}
+#logo {
+  position: relative;
+  top: -20px;
+  left: -70px;
+  width: 120px;
+  height: 40px;
+  align-self: center;
+}
+.logoset {
+  display: flex;
+}
+
+.logo2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: hsl(229, 57%, 11%);
+  padding: 8px;
+  height: 21px;
+  top: 1 0px;
+  width: 25px;
+  border-radius: 5px;
+}
+#lo1 {
+  margin-left: 20px;
+}
+#lo2,
+#lo3 {
+  margin-left: 25px;
+}
+.storage {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+
+  width: 500px;
+  height: 140px;
+  top: 20px;
+  align-self: center;
+  background-color: hsl(228, 56%, 26%);
+  margin-left: 20px;
+  border-radius: 20px;
+  z-index: 2;
+}
+.sent {
+  position: relative;
+  top: -20px;
+  left: 40px;
+  font-weight: 400;
+}
+.bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(229, 57%, 11%);
+  width: 425px;
+  height: 16px;
+  align-self: center;
+  border-radius: 17px;
+}
+.colo {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+  width: 300px;
+  height: 12px;
+  border-radius: 17px;
+  margin-left: 2px;
+  z-index: 4;
+}
+.dot {
+  position: relative;
+  right: -143px;
+  align-self: center;
+  background-color: wheat;
+  width: 10px;
+  height: 10px;
+  border-radius: 12px;
+}
+.stats {
+  position: relative;
+  display: flex;
+  width: 425px;
+  align-self: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+.start {
+  position: absolute;
+  left: 10px;
+  margin-top: 8px;
+}
+.end {
+  position: absolute;
+  right: 10px;
+  margin-top: 8px;
 }
